@@ -53,7 +53,8 @@ Let’s set up the Attiny program to use the Arduino as a programmer.
 Now, you are ready to use your Attiny85 as a standard microcontroller.
 
 ### Circuit Diagram
-![image](https://user-images.githubusercontent.com/10446090/42949859-d2aa3f4a-8b83-11e8-86e3-fdd3393dd42f.png)
+![image](https://user-images.githubusercontent.com/10446090/42950593-71398e9e-8b85-11e8-92fa-d8b9241f747d.png)
+
 - Unplug your Arduino
 - Place the ATtiny Chip onto the breadboard
 - Connect the ground from the Arduino to the Ground Rail
@@ -70,8 +71,8 @@ Now, you are ready to use your Attiny85 as a standard microcontroller.
 Now, Lets burn an LED blink code onto the ATtiny85 chip. <br/>
  
 **Circuit Diagram** 
-![image](https://user-images.githubusercontent.com/10446090/42950096-52484a80-8b84-11e8-8357-1fbd50763df0.png)
-<br/>
+![image](https://user-images.githubusercontent.com/10446090/42950661-8ce47b90-8b85-11e8-9e7c-29f41d880282.png)
+
 
 **Code** <br/>
 
