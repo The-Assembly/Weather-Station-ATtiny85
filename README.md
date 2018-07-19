@@ -15,21 +15,6 @@ The Arduino is a great micro-controller for developing your concepts into a viab
 - I2C OLED Display module 
 - LED 
 
-### Circuit Diagram
-![image](https://user-images.githubusercontent.com/10446090/42949859-d2aa3f4a-8b83-11e8-86e3-fdd3393dd42f.png)
-- Unplug your Arduino
-- Place the ATtiny Chip onto the breadboard
-- Connect the ground from the Arduino to the Ground Rail
-- Connect the 5V from the Arduino to pin 8 of the ATTINY
-- Connect pin 4 of the chip to ground
-- Place the capacitor between ground and another terminal strip (The anode of the capacitor must be connected to ground- )
-- Connect the cathode of the capacitor to the Reset pin of the Arduino
-- Connect a lead from the header pin 10 of the Arduino to pin 1 of the chip
-- Connect Arduino Pin 11 to Pin 5 of the ATtiny85 chip
-- Connect Arduino Pin 12 to Pin 6 of the ATtiny85 chip 
-- Connect Arduino Pin 13 to Pin 7 of the ATtiny85 chip
-
-
 ### Setting up firmware onto the ATtiny85 using bootloader
 A bootloader makes prototyping easier because the code be loaed to the microcontroller dirctly from the Arduino IDE using a basic serial connection. <br/>
 
@@ -66,6 +51,20 @@ Let’s set up the Attiny program to use the Arduino as a programmer.
 <br/>
 
 Now, you are ready to use your Attiny85 as a standard microcontroller.
+
+### Circuit Diagram
+![image](https://user-images.githubusercontent.com/10446090/42949859-d2aa3f4a-8b83-11e8-86e3-fdd3393dd42f.png)
+- Unplug your Arduino
+- Place the ATtiny Chip onto the breadboard
+- Connect the ground from the Arduino to the Ground Rail
+- Connect the 5V from the Arduino to pin 8 of the ATTINY
+- Connect pin 4 of the chip to ground
+- Place the capacitor between ground and another terminal strip (The anode of the capacitor must be connected to ground- )
+- Connect the cathode of the capacitor to the Reset pin of the Arduino
+- Connect a lead from the header pin 10 of the Arduino to pin 1 of the chip
+- Connect Arduino Pin 11 to Pin 5 of the ATtiny85 chip
+- Connect Arduino Pin 12 to Pin 6 of the ATtiny85 chip 
+- Connect Arduino Pin 13 to Pin 7 of the ATtiny85 chip
 
 ### Example 
 Now, Lets burn an LED blink code onto the ATtiny85 chip. <br/>
