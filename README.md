@@ -28,7 +28,7 @@ A bootloader makes prototyping easier because the code be loaed to the microcont
 The Arduino software does not natively support the ATtiny85 so we need to add support for it. <br/>
 - Open the Preferences Dialog from the File menu.
 - Put https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json into the "Additional Boards Manager URL".
-- Click OK!
+- Click OK! <br/>
 ![image](https://user-images.githubusercontent.com/10446090/42949180-4229593e-8b82-11e8-899d-63276bce5115.png)
 <br/>
 
@@ -36,7 +36,7 @@ The Arduino software does not natively support the ATtiny85 so we need to add su
 - Open the Boards Manager from the Tools, Board Menus
 - Select the ATtiny from the list once the software has updated
 -Search for ATtiny, either manually scrolling down the list, or typing "attiny" in the filter field.
-- Click Install the (Use the latest version).
+- Click Install the (Use the latest version). <br/>
 
 ![image](https://user-images.githubusercontent.com/10446090/42949508-f2a08346-8b82-11e8-9b93-48eeb4dc88be.png)
 
@@ -45,7 +45,7 @@ Let’s set up the Attiny program to use the Arduino as a programmer.
 - Select Arduino as ISP from the Tools, Programmer Menus
 - Select ATtiny from the Tools, Board Menus
 - Select ATtiny85 from the Tools, Processor Menus
-- Select 8Mhz Internal from the Tools, Clock Menu
+- Select 8Mhz Internal from the Tools, Clock Menu <br/>
 
 ![image](https://user-images.githubusercontent.com/10446090/42949769-8ce57f7e-8b83-11e8-85ac-986186c36f8c.png)
 <br/>
@@ -53,7 +53,7 @@ Let’s set up the Attiny program to use the Arduino as a programmer.
 Now, you are ready to use your Attiny85 as a standard microcontroller.
 
 ### Circuit Diagram
-![image](https://user-images.githubusercontent.com/10446090/42950593-71398e9e-8b85-11e8-92fa-d8b9241f747d.png)
+![image](https://user-images.githubusercontent.com/10446090/42950593-71398e9e-8b85-11e8-92fa-d8b9241f747d.png) <br/>
 
 - Unplug your Arduino
 - Place the ATtiny Chip onto the breadboard
@@ -70,8 +70,8 @@ Now, you are ready to use your Attiny85 as a standard microcontroller.
 ### Example 
 Now, Lets burn an LED blink code onto the ATtiny85 chip. <br/>
  
-**Circuit Diagram** 
-![image](https://user-images.githubusercontent.com/10446090/42950661-8ce47b90-8b85-11e8-9e7c-29f41d880282.png)
+**Circuit Diagram**  <br/>
+![image](https://user-images.githubusercontent.com/10446090/42950661-8ce47b90-8b85-11e8-9e7c-29f41d880282.png) <br/>
 
 
 **Code** <br/>
